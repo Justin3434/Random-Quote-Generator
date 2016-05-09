@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="randomquotegen.css">
+  </head>
+<body>
+<div class="container-fluid">
+  <div class = "row text-center" style="color:white">
+    <h2>Random Quote Generator</h2>
+  </div>
+  <div class = "row text-center" id = "quote-row">
+    <div class = "col-xs-12 well message">
+      Click For A Random Quote!
+    </div>
+  </div>
+  <div class = "row text-center">
+    <div class = "col-xs-12">
+    <button id = "newQuote" class = "btn btn-primary">
+        New Quote
+      </button>
+    </div>
+    <div class = "col-xs-12">
+        <button id = "twitter" class = "btn btn-primary">
+             <a href="https://twitter.com/intent/tweet?text=" style= "color:white">Tweet This</a>
+        </button>
+    </div>
+   </div>
+</div>
+<script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="randomquotegen.js"></script>
+</body>
+</html>

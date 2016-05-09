@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  margin-top: 200px;
+}
+
+button {
+  color: white;
+}
+
+#twitter {
+  margin-top: 20px;
+
+}
+#quote-row{
+  margin: auto;
+  width: 350px;
+}
